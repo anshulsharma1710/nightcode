@@ -8,7 +8,7 @@ import { Session } from "./screens/session";
 
 const router = createMemoryRouter([
   {
-    path: '/',
+    path: "/",
     element: <RootLayout />,
     children: [
       { index: true, element: <Home /> },
@@ -20,7 +20,7 @@ const router = createMemoryRouter([
 
 function App() {
   return <RouterProvider router={router} />
-};
+}
 
 const renderer = await createCliRenderer({
   targetFps: 60,
