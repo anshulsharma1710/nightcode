@@ -75,7 +75,7 @@ git checkout 07-tool-calling  # example: jump to tool calling
 ### 1. Clone and install
 
 ```bash
-git clone git@github.com:code-with-antonio/nightcode.git
+git clone https://github.com/anshulsharma1710/nightcode.git
 cd nightcode
 bun install
 ```
